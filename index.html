@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Opportunities in Japan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+                                                   <!-- Header Section ✅ --> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jobs">Job Listings</a></li>
+                <li><a href="#about">About Japan</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><button onclick="toggleLanguage()">Switch Language</button></li>
+            </ul>
+        </nav>
+    </header>
+                                                        <!-- Home ✅ -->
+    <section id="home">
+        <div class="hero">
+            <h1 id="welcome-heading"></h1>
+            <p id="welcome-text"></p>
+            <a href="#jobs" class="btn">View Jobs</a>
+        </div>
+    </section>
+                                                     <!-- Job Section ✅ -->
+    <section id="jobs">
+        <div class="container">
+            <h2 id="job-listings-heading"></h2>
+            <input type="text" id="search" placeholder="Search jobs...">
+            <div id="job-listings">
+                <!-- Job listings will be dynamically populated here -->
+            </div>
+        </div>
+    </section> 
+                                                    <!-- About Section ✅ -->
+    <section id="about">
+        <div class="container">
+            <h2 id="about-heading"></h2>
+            <p id="about-text"></p>
+        </div>
+    </section>
+                                                    <!-- Contact Section ✅ --> 
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+                                                        <!-- Footer ✅ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Work Opportunities in Japan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
